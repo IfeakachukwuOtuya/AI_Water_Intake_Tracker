@@ -21,18 +21,18 @@ Log daily intake, visualize progress, and get AI-based hydration advice.
 ---
 
 ## 📂 Project Structure
-.
-├── app.py               # Streamlit UI
-├── api.py               # FastAPI backend
-├── .env                 # Local environment file (DO NOT COMMIT)
-├── .env.example         # Example environment file for sharing
+
+├── dashboard.py/       # Streamlit UI
+├── .env                # Local environment file (DO NOT COMMIT)
+├── .env.example        # Example environment file for sharing
 ├── scr/
-│   ├── agent.py         # AI hydration agent
-│   ├── database.py      # DB functions
-│   ├── logger.py        # Activity logs
-│   └── __init__.py
+│   ├── agent.py/         # AI hydration agent
+│   ├── api.py/           # FastAPI backend
+│   ├── database.py/      # DB functions
+│   ├── logger.py/        # Activity logs
+│   └── __init__.py/
 ├── requirements.txt
-└── LICENSE              # MIT License
+└── README.md             # This file
 
 ---
 
