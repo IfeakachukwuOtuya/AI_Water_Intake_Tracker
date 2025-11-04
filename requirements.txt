@@ -1,0 +1,26 @@
+#LLM & AI Agent framework
+langchain==0.1.12
+openai==1.14.1
+llama-index
+
+# Backend (API)
+fastapi==0.109.2
+uvicorn==0.27.0.post1
+
+#Database
+sqlalchemy==2.0.23
+
+#CLI interaction (Optional)
+typer==0.9.0
+
+#Streamlit UI (Optional)
+#Streamlit==1.31.1
+
+#Enviroment Variables
+python-dotenv==1.0.1
+
+# Logging $ Debugging 
+loguru==0.7.2
+
+#Task scheduling (For remainder)
+apscheduler==3.10.4
