@@ -36,7 +36,7 @@ water_tracker_ai/
 ├── requirements.txt      # Project dependencies
 └── README.md             # Project documentation
 
----
+```
 
 ## ⚙️ Environment Variables (.env)
 
