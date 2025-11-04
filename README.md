@@ -26,13 +26,13 @@ water_tracker_ai/
 ├── dashboard.py           # Streamlit UI
 ├── .env                  # Local environment file (DO NOT COMMIT)
 ├── .env.example          # Example environment file for sharing
-├── scr/                  # Package folder
+├── scr/                  # Python package
 │   ├── agent.py          # AI hydration agent
 │   ├── api.py            # FastAPI backend
 │   ├── database.py       # DB functions
 │   ├── logger.py         # Activity logs
-│   └── __init__.py       # Makes 'scr' a Python package
-├── requirements.txt
+│   └── __init__.py       # Package initializer
+├── requirements.txt      # Project dependencies
 └── README.md             # Project documentation
 
 ---
