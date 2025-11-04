@@ -22,6 +22,7 @@ Log daily intake, visualize progress, and get AI-based hydration advice.
 
 ## 📂 Project Structure
 
+```
 water_tracker_ai/
 ├── dashboard.py           # Streamlit UI
 ├── .env                  # Local environment file (DO NOT COMMIT)
